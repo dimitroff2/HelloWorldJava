@@ -27,5 +27,23 @@ public class Hello {
             //|| the logical OR operator, it requires the operands on one side of the operator to be true
             System.out.println("Either or both of the conditions are true");
         }
+
+        int newValue = 50;
+        //if (newValue = 50)
+        if (newValue == 50) {
+            /* using a single = is the assignment operator instead of the equals to operator ==
+            We arent assigning a value here we want to test of the two values equal each other
+            */
+            System.out.println("This is an error");
+        }
+        boolean isCar = false;
+        if (!isCar) {
+            /*instead of doing (isCar == True) can use (isCar) as a shortcut to see if it checks as true
+            //putting ! in front of isCar checks to see if it is false (!isCar)
+            another way to think of !isCar is it returns the opposite of isCar
+            ! is the NOT operator
+             */
+            System.out.println("This is not suppose to happen");
+        }
     }
 }
