@@ -45,5 +45,20 @@ public class Hello {
              */
             System.out.println("This is not suppose to happen");
         }
+        String makeOfCar = "Volkswagen";
+        boolean isDomestic = makeOfCar == "Volkswagen" ? false : true;
+        /*
+        On the second line we are using the ternary operator and thus three operands
+        First operand is the condition or expressing were testing and should evaluate to true or false outcome
+        second operand will be assigned in the value is false
+        Third operand is assigned if the expression is true
+        Ternary is a shortcut for if-then-else
+         */
+        if(isDomestic){
+            System.out.println("This car is domestic to our country");
+        }
+        String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
+        //isDomestic true print first option if not print second
+            System.out.println(s);
     }
 }
