@@ -18,10 +18,14 @@ public class Hello {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 81;
-        if (topScore > secondTopScore && topScore < 100){
-            //&& the logical and operator , it requires the operands on both sides of the operator to be true
+        int secondTopScore = 95;
+        if ((topScore > secondTopScore) && (topScore < 100)){
+            //&& the logical AND operator , it requires the operands on both sides of the operator to be true
             System.out.println("Greater than second top score and less than 100");
+        }
+        if ((topScore > 90 ) || (secondTopScore <= 90)){
+            //|| the logical OR operator, it requires the operands on one side of the operator to be true
+            System.out.println("Either or both of the conditions are true");
         }
     }
 }
