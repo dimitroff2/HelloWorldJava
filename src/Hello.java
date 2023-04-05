@@ -20,6 +20,7 @@ public class Hello {
 
         int secondTopScore = 81;
         if (topScore > secondTopScore && topScore < 100){
+            //&& the logical and operator , it requires the operands on both sides of the operator to be true
             System.out.println("Greater than second top score and less than 100");
         }
     }
